@@ -1,12 +1,22 @@
 @charset "UTF-8";   
 body{
-    height: 100wvh;
-    background-color: black;
+    height: 100vh;
+    /*background-color: black;
     background-image: url("imagens/wallpaper002.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachme
+    background-attachment: fixed;*/
+
+
+/*
+                ShortHand - background
+    color- image - position - repeat - attachment
+w
+    */
+background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+background-size: cover;
+
 }
 
 main{
