@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@font-face {
+    font-family: 'Verdana Bold';
+    src: url(fonts/verdana-font-family/verdana-bold.ttf) format(truetype);
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Verdana Regular';
+    src: url(fonts/verdana-font-family/verdana.ttf) format(truetype);
+    font-weight: normal;
+}
+:root{
+    --fonte-titulo:'Passion One', cursive;
+    --fonte-texto:
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    
+}
+
+header{
+    background-color: black;
+    text-align: center;
+}
+    h1{
+    font-family: var( --fonte-titulo);
+    color: white;
+    font-size: 140px;
+    padding-top:50px;
+    font-variant: small-caps;
+    }
+    a{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Verdana';
+    }
+    p{
+        color: white;
+        font-family: 'Verdana Regular';
+        padding-bottom: 50px;
+    }
