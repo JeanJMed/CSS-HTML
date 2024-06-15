@@ -1,5 +1,8 @@
 @charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 @font-face {
     font-family: 'Verdana Bold';
     src: url(fonts/verdana-font-family/verdana-bold.ttf) format(truetype);
@@ -10,9 +13,11 @@
     src: url(fonts/verdana-font-family/verdana.ttf) format(truetype);
     font-weight: normal;
 }
+
+
 :root{
     --fonte-titulo:'Passion One', cursive;
-    --fonte-texto:
+    --fonte-paragrafo: 'Sriracha'
 }
 *{
     margin: 0px;
@@ -42,8 +47,22 @@ header{
     font-weight: bold;
     font-family: 'Verdana';
     }
-    p{
+    header p{
         color: white;
         font-family: 'Verdana Regular';
         padding-bottom: 50px;
     }
+    header a{
+        text-decoration: ;
+    }
+
+
+
+main div{
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+    font-family: var(--fonte-paragrafo);
+}
+main p {
+    font-family: var(--fonte-paragrafo);
+}
