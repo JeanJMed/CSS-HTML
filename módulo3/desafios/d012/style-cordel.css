@@ -19,16 +19,20 @@
     --fonte-titulo:'Passion One', cursive;
     --fonte-paragrafo: 'Sriracha'
 }
+
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 body{
-    background-color: white;
+    background-color: darkgray;
+    font-family: var(--fonte-titulo);
+    min-height: 100vh;
+    display: block;
     
 }
-
 header{
     background-color: black;
     text-align: center;
@@ -36,33 +40,48 @@ header{
     h1{
     font-family: var( --fonte-titulo);
     color: white;
-    font-size: 140px;
+    font-size: 10vw;
     padding-top:50px;
     font-variant: small-caps;
+    
     }
-    a{
+    header a{
     color: white;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    font-family: 'Verdana';
+    font-family: 'Verdana Regulare';
+    text-decoration: none;
     }
+
+    header a:hover{
+        text-decoration: underline;
+    }
+
     header p{
         color: white;
         font-family: 'Verdana Regular';
-        padding-bottom: 50px;
-    }
-    header a{
-        text-decoration: ;
+        padding-bottom: 67px;
     }
 
 
-
-main div{
-    background-color: rgba(0, 0, 0, 0.836);
-    color: white;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
     font-family: var(--fonte-paragrafo);
+    background-color: white;
+    font-weight: regular;
+    font-size: 3.5vw;
 }
+
+
 main p {
-    font-family: var(--fonte-paragrafo);
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
