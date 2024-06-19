@@ -17,7 +17,9 @@
 
 :root{
     --fonte-titulo:'Passion One', cursive;
-    --fonte-paragrafo: 'Sriracha'
+    --fonte-paragrafo: 'Sriracha';
+    --fonte-texto: Verdana Bold;
+    --fonte-texto2:Verdana Regular;
 }
 
 *{
@@ -45,23 +47,24 @@ header{
     font-variant: small-caps;
     
     }
-    header a{
+    a{
     color: white;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    font-family: 'Verdana Regulare';
+    font-family: var(--fonte-texto);
     text-decoration: none;
     }
 
-    header a:hover{
+    a:hover{
         text-decoration: underline;
     }
 
     header p{
         color: white;
         font-family: 'Verdana Regular';
-        padding-bottom: 67px;
+        display: block;
+        padding-bottom: 50px;
     }
 
 
@@ -84,4 +87,39 @@ main p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    padding-bottom: 2em;
+    margin: 0px;
+}
+
+#img01{
+    background: url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;  
+}
+#img01>p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: inline-block;
+    box-shadow: 1px 1px 0px black;
+    padding: 5px;
+}
+#img02{
+    background: url(imagens/background002.jpg) fixed;
+    background-size: cover;
+}
+#img02>p{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    display: inline-block;
+    box-shadow: 1px 1px 0px black;
+    padding: 5px;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+footer p{
+    font-size: 1em;
+    color: white;
+    font-family: var(--fonte-texto2);
 }
