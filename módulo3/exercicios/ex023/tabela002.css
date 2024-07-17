@@ -2,6 +2,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+tbody > tr:nth-child(2n){
+    background-color: lightgray;
+}
+/** DA PARA USAR A EXPRESSÃO PAR (ODD) E IMPAR (EVEN) PARA PODER ZEBRAR TAMBÉM, OUTRA QUESTÃO É QUE DA PARA FAZER 2N-1 PARA ALTERAR O ÍNICIO**/
+
 caption{
     font-size: 1.5em;
     font-weight: bold;
@@ -11,12 +17,18 @@ caption{
 table{
     border-collapse: collapse;
     width: 500px;
+    position: relative;
 }
 
 td, th{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
+}
+thead > tr > th{
+    position: sticky;
+    top: 0;
+    background-color:#383838;e
 }
 thead, tfoot{
     background-color: gray;
