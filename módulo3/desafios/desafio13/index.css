@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+table{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+td{
+    border: 1px solid black;
+    width: 75px;
+    height: 40px;
+}
